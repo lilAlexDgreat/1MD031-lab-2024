@@ -79,7 +79,11 @@ button{
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
 }
 .box {
-
+    background-color: orange;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-self: center;
 }
 .a { }
 .b { }
