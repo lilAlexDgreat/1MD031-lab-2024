@@ -1,108 +1,13 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Page title shown in window title</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="public/css/style.css">
-</head>
-
-<body>
-    <div id="header">
-        <h1 id="headertext">Welcome to BurgerOnline</h1>
-    </div>
-        <section id="burgers">
-
-        <h2>Select burger </h2>
-        <p>this is where you excecute burger selection</p>
-        
-        <div class="wrapper">
-
-            <div class="box a">
-                <h2>The Classic Burger</h2>
-                <img src="Classichamburger.jpg" width="300">
-                <ul>
-                    <li>Contains burger</li>
-                    <li class="nonvegan">Non vegan</li>
-                    <li>1/10 spicy</li>
-                    <li>Approx. 600 calories</li>
-                </ul>
-            </div>
-
-            <div class="box b">
-                <h2>The Chicken Burger</h2>
-                <img src="Chickenburger.jpg" width="300">
-                <ul>
-                    <li>Contains chicken</li>
-                    <li class="nonvegan">Non vegan</li>
-                    <li class="spicy">8/10 spicy</li>
-                    <li>Approx. 500 calories</li>
-                </ul>
-            </div>
-
-
-            <div class="box c">
-                <h2>The Cheese Burger</h2>
-                <img src="Cursedburger.png" width="300" id="clickable">
-                <ul>
-                    <li class="lactos">Lactose</li>
-                    <li class="nonvegan">Non vegan</li>
-                    <li>Non gluten</li>
-                    <li id="caloriebomb">Approx. 15000 calories</li>
-                </ul>
-            </div>
-
-        </div>
-    </section>
-    <section id="info">
-
-        <h2>Customer information</h2>
-        <p>This is where you provide necessary information</p>
-        
-        <h3>Delivery information:</h3>
-        <p>
-            <label for="firstname">Full name</label><br>
-            <input type="text" id="name" name="fn" required="required" placeholder="First- and last name">
-        </p>
-        <p>
-            <label for="email">Email adress</label><br>
-            <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
-        </p>
-        <p>
-            <label for="Street">Street</label><br>
-            <input type="text" id="street" name="st" required="required" placeholder="Street name">
-        </p>
-        <p>
-            <label for="House">House</label><br>
-            <input type="text" id="house" name="hs" required="required" placeholder="House number">
-        </p>
-        <p>
-            <label for="payment">Payment options</label><br>
-            <select id="payment" name="pay">
-                <option selected="selected">Credit card</option>
-                <option>Cash?</option>
-                <option>Paypall</option>
-                <option>Swish</option>
-            </select>
-        </p>
-        
-        
-        <p>
-            Gender <br>
-            <label for="male">Male</label>
-            <input type="radio" id="male" name="gndr" required="required"> <br>
-            <label for="female">Female</label>
-            <input type="radio" id="female" name="gndr" required="required"> <br>
-            <label for="not">Do not with to provide</label>
-            <input type="radio" id="not" name="gndr" required="required"> <br>
-        </p>
-        <button type="submit">
-            <img src="sendbutton.png" width="100">
-        </button>
-    </section>    
-        <hr>
-        Footer
-        
-    </body>
-    
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

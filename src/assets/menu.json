@@ -1,21 +1,31 @@
 [{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "The Classic Burger", 
+    "imgURL": "../../../Classichamburger.jpg",
+    "kCal": 600, 
+    "spicy": "1/10",
+    "allergy": "Gluten", 
+    "contains": "burger"
+
 },
 {
-    "name": "Veggie Bliss", 
+    "name": "The Chicken Burger", 
+    "imgURL": "../../../Chickenburger.jpg",
     "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "spicy": "8/10",
+    "allergy": "", 
+    "contains": "chicken"
+
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-}]
+    "name": "The Cheese Burger", 
+    "imgURL": "../../../Cheeseburger.png",
+    "kCal": 15000, 
+    "spicy": "-1/10",
+    "allergy": "Lactose", 
+    "contains": "cheese"
+
+}
+
+]
+
+
